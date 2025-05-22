@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <title>Лаба 2 — CSS</title>
+
+  <!-- Вариант А: Внешний файл CSS -->
+  <link rel="stylesheet" href="style.css">
+
+  <!-- Вариант Б: Встроенные стили -->
+  <style>
+    .s {
+      font-weight: bold;
+      color: darkcyan;
+      background-color: cornsilk;
+    }
+  </style>
+
+</head>
+
+<body>
+<p style="color: red;">Этот загаловок с втроенным стилем</p>
+
+<p class="s">Абзац с классом, стилизован внутри тега style</p>
+
+<p id="superp">Абзац с id, у него своя стилизация</p>
+
+<p class="inherit-example">Этот абзац наследует стили от родителя.</p>
+
+<div class="cascade">
+  <p>Проверка каскадирования: этот текст должен быть синим, а не красным.</p>
+</div>
+
+</body>
+</html>

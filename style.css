@@ -1,0 +1,23 @@
+/* Вариант А: Подключение внешнего файла */
+
+#superp{
+    font-size: 20px;
+    color: fuchsia;
+    font-style: italic;
+}
+
+/* Наследование */
+.inherit-example {
+
+    font-size: inherit; /* наследует от родителя (body) */
+    color: inherit;
+    background-color: inherit;
+}
+
+/* Каскадирование: более специфичный селектор перекрывает общий */
+.cascade p {
+    color: blue;
+}
+p {
+    color: green;
+}
